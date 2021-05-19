@@ -16,7 +16,7 @@ public class home extends AppCompatActivity {
 
 //  for carousel
     private int[] mImage = new int[]{
-            R.drawable.cokecar,R.drawable.colddrinks, R.drawable.dryfruits, R.drawable.dryfruitsandveg, R.drawable.fruits, R.drawable.groceryitems, R.drawable.watermelon
+            R.drawable.groceryitems,R.drawable.watermelon, R.drawable.dryfruits, R.drawable.dryfruitsandveg, R.drawable.fruits, R.drawable.cokecar, R.drawable.colddrinks
     };
 // for drawer navigation
     DrawerLayout drawerLayout;

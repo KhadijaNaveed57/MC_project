@@ -5,6 +5,8 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="left"
     android:padding="5dp"
     tools:context=".home"
     android:background="@drawable/back">
@@ -41,5 +43,9 @@
         android:layout_height="match_parent"
         app:headerLayout="@layout/header"
         app:menu="@menu/navbar"
+        app:itemIconTint="#FFFF"
+        app:itemTextColor="#FFFF"
+        android:layout_gravity="start"
+        android:backgroundTint="#D8AE68"
         />
 </androidx.drawerlayout.widget.DrawerLayout>
