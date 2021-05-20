@@ -28,7 +28,6 @@ public class home extends AppCompatActivity implements NavigationView.OnNavigati
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
-    Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,7 +76,7 @@ public class home extends AppCompatActivity implements NavigationView.OnNavigati
 //        switch (item.getItemId())
 //        {
 //            case R.id.fruits:
-//                intent = new Intent(this,fruits.class);
+//                Intent intent = new Intent(this,fruits.class);
 //                startActivity(intent);
 //                break;
 ////            case R.id.vegetables:
