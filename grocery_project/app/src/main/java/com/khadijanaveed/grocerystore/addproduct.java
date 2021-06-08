@@ -53,7 +53,7 @@ public class addproduct extends AppCompatActivity {
             imageView.setImageBitmap(ImageToStore);
         }
     }
-
+// it is used to show dialogue box
     public void dialogue1(View view) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage("Are you sure you want to add the product?");
