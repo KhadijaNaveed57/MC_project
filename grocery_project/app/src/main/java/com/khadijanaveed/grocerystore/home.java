@@ -73,18 +73,5 @@ public class home extends AppCompatActivity implements NavigationView.OnNavigati
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         return true;
-//        switch (item.getItemId())
-//        {
-//            case R.id.fruits:
-//                Intent intent = new Intent(this,fruits.class);
-//                startActivity(intent);
-//                break;
-////            case R.id.vegetables:
-////                intent = new Intent(this, vegetables.class);
-////                startActivity(intent);
-////                break;
-//        }
-//        drawerLayout.closeDrawer(GravityCompat.START);
-//        return true;
     }
 }
