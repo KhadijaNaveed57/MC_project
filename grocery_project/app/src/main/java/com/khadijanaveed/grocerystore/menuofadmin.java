@@ -39,6 +39,7 @@ public class menuofadmin extends AppCompatActivity {
     }
 
     public void delete(View view) {
+
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage("Are you sure you want to delete");
         builder.setTitle("Delete Product");
@@ -47,5 +48,7 @@ public class menuofadmin extends AppCompatActivity {
         builder.setCancelable(false);
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
+
     }
 }
+
